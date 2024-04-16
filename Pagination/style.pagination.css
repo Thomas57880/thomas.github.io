@@ -1,0 +1,25 @@
+.pagination{
+    background-color: rgb(244, 244, 244);
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 5px 5px;
+    width: fit-content;
+    margin: auto;
+}
+.pagination a{
+    color: black;
+    border: 1px hsla(0, 0%, 0%, 0.274) solid;
+    border-radius: 9px;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(190, 190, 190);
+    font-weight: bold;
+    border-radius: 9px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(225, 225, 225);
+    border-radius: 9px;
+}
